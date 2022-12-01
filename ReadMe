@@ -1,0 +1,27 @@
+Building Modern Web Applications with Golang
+
+The major project  is building a bookings and reservation system for rooms respectively. Visitors to our site will be able to search for accommodations by date and make an online reservation, and the site owner will be able to manage reservations from a secure back end.
+
+
+Key Functionality of the Project
+
+	Allowing booking of rooms for one or more days stay
+	Checking the rooms availability
+	Notifying the guests and the property owner
+	A proper back end system that owner logs in to
+	Review an existing reservation
+	Showing the reservations calendar
+	Canceling and changing an existing booking
+	Getting an interface for Admin to define rooms, availability dates and size also
+	Anyone trying to book, is given the option to select date(s), size etc.
+
+	Showing the reservation and free space calendar to the admin
+	Admin is able to perform the CRUD
+	On confirmation, integrating a SMTP to send mail and confirm and block the room
+
+Modules in the application
+
+A module is a collection of source files and build settings that allows you to divide your project into discrete units of functionality.
+The entire application has been divided into two modules,
+	The user module
+	The admin module
